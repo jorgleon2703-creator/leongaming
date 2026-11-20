@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>León Gaming | Alquiler Xbox Series S - Bosa y Kennedy</title>
+<style>
+  body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #fff;
+    background-color: #050811;
+    background-image: linear-gradient(rgba(5, 8, 17, 0.82), rgba(5, 8, 17, 0.88)), url('logo.png');
+    background-attachment: fixed;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: 550px auto;
+  }
+
+  @media (max-width: 650px) {
+    body {
+      background-size: 85% auto;
+    }
+  }
+
+  /* Barra Superior limpia */
+  header {
+    background: rgba(5, 8, 17, 0.92);
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 2px solid #22c55e;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    backdrop-filter: blur(5px);
+  }
+  .logo-text { font-size: 22px; font-weight: 900; letter-spacing: 1px; }
+  .logo-text span { color: #f59e0b; }
+  .zona-header { font-size: 13px; color: #22c55e; font-weight: bold; }
+  .btn { background: #22c55e; color: #052e16; padding: 12px 24px; border-radius: 6px; text-decoration: none; font-weight: bold; display: inline-block; font-size: 16px; }
+
+  /* Portada y Secciones */
+  .hero { text-align: center; padding: 65px 5%; }
+  .badge { display: inline-block; background: rgba(245, 158, 11, 0.15); border: 1px solid #f59e0b; color: #f59e0b; padding: 6px 15px; border-radius: 20px; font-size: 12px; font-weight: bold; }
+  h1 { font-size: 38px; margin: 15px 0; text-shadow: 0 2px 10px rgba(0,0,0,0.8); }
+  h1 span, h2 span { color: #22c55e; }
+  h2 { text-align: center; margin: 45px 0 20px; font-size: 28px; text-shadow: 0 2px 8px rgba(0,0,0,0.8); }
+  .wrap { max-width: 1000px; margin: auto; padding: 0 5%; }
+  .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 15px; }
+  
+  .card {
+    background: rgba(30, 41, 59, 0.85);
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 1px solid #334155;
+    backdrop-filter: blur(4px);
+  }
+  .card.green { border: 2px solid #22c55e; }
+  .card.gold { border: 2px solid #f59e0b; }
+  
+  .pill { display: inline-block; background: #0f172a; color: #22c55e; border: 1px solid #22c55e; padding: 4px 10px; margin: 4px; border-radius: 4px; font-size: 13px; font-weight: bold; }
+  table { width: 100%; border-collapse: collapse; margin-top: 10px; }
+  td { padding: 8px 0; border-bottom: 1px solid rgba(255,255,255,0.1); font-size: 15px; text-align: left; }
+  td.price { text-align: right; color: #22c55e; font-weight: bold; }
+  .note { background: rgba(6, 78, 59, 0.9); border: 1px solid #22c55e; color: #a7f3d0; padding: 14px; border-radius: 8px; text-align: center; margin-top: 25px; font-weight: bold; }
+
+  /* Único botón flotante WhatsApp */
+  .float-wa {
+    position: fixed; bottom: 20px; right: 20px; background: #25d366; color: #052e16;
+    padding: 13px 22px; border-radius: 30px; font-weight: bold; text-decoration: none; z-index: 200;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+  }
+
+  footer { text-align: center; padding: 25px; background: rgba(5, 8, 17, 0.92); margin-top: 45px; color: #94a3b8; font-size: 14px; border-top: 1px solid #1e293b; }
+</style>
+</head>
+<body>
+
+<header>
+  <div class="logo-text">👑 <span>LEÓN</span> GAMING</div>
+  <div class="zona-header">📍 Bosa y Kennedy</div>
+</header>
+
+<!-- Botón 1: Portada principal -->
+<div class="hero">
+  <span class="badge">🚚 DOMICILIO GRATIS EN BOSA Y KENNEDY</span>
+  <h1>Alquiler de <span>Xbox Series S</span></h1>
+  <p style="color: #e2e8f0; max-width: 600px; margin: 0 auto 25px;">Lleva la diversión a otro nivel en la comodidad de tu casa. Servicio disponible en Bosa y Kennedy.</p>
+  <a href="https://whatsapp.com" target="_blank" class="btn">📲 Reservar por WhatsApp: 350 827 6184</a>
+</div>
+
+<div class="wrap">
+  <h2>¿Qué incluye tu <span>alquiler</span>?</h2>
+  <div class="grid">
+    <div class="card">
+      <h3>🎮 Consola Xbox Series S</h3>
+      <p>Última generación, rápida y lista para conectar.</p>
+    </div>
+    <div class="card">
+      <h3>🕹️ 2 Controles</h3>
+      <p>Mandos inalámbricos para jugar acompañado.</p>
+    </div>
+    <div class="card">
+      <h3>🎧 1 Diadema Gamer</h3>
+      <p>Inmersión total en cada partida.</p>
+    </div>
+    <div class="card green">
+      <h3>🔥 Game Pass Ultimate (+200 Juegos)</h3>
+      <div>
+        <span class="pill">Call of Duty</span>
+        <span class="pill">EA FC 26</span>
+        <span class="pill">Gears of War</span>
+        <span class="pill">Forza Horizon</span>
+        <span class="pill">Minecraft</span>
+        <span class="pill">Fortnite</span>
+        <span class="pill">Halo</span>
+      </div>
+    </div>
+  </div>
+
+  <h2>Tarifas de <span>Alquiler</span></h2>
+  <div class="grid">
+    <div class="card">
+      <h3>⏱️ Planes Básicos ($15.000/h)</h3>
+      <table>
+        <tr><td>2 Horas</td><td class="price">$30.000</td></tr>
+        <tr><td>3 Horas</td><td class="price">$45.000</td></tr>
+        <tr><td>4 Horas</td><td class="price">$60.000</td></tr>
+        <tr><td>5 Horas</td><td class="price">$75.000</td></tr>
+      </table>
+    </div>
+
+    <div class="card gold">
+      <h3>⚡ Maratón Gamer ($12.000 hora extra)</h3>
+      <table>
+        <tr><td>6 Horas</td><td class="price">$87.000</td></tr>
+        <tr><td>7 Horas</td><td class="price">$99.000</td></tr>
+        <tr><td>8 Horas</td><td class="price">$111.000</td></tr>
+        <tr><td>9 Horas</td><td class="price">$123.000</td></tr>
+        <tr><td>10 Horas</td><td class="price">$135.000</td></tr>
+        <tr><td>11 Horas</td><td class="price">$147.000</td></tr>
+        <tr><td>12 Horas</td><td class="price">$159.000</td></tr>
+      </table>
+    </div>
+  </div>
+
+  <h2>Accesorios <span>Extra</span></h2>
+  <div class="grid">
+    <div class="card">
+      <h3>🕹️ Tercer Control Extra</h3>
+      <p style="font-size:22px; color:#22c55e; font-weight:bold;">+$10.000</p>
+    </div>
+    <div class="card">
+      <h3>🎧 Diadema Gamer Extra</h3>
+      <p style="font-size:22px; color:#22c55e; font-weight:bold;">+$10.000</p>
+    </div>
+    <div class="card gold">
+      <h3>🔥 Combo (Control + Diadema)</h3>
+      <p style="font-size:22px; color:#f59e0b; font-weight:bold;">+$15.000</p>
+    </div>
+  </div>
+
+  <div class="note">🚚 ¡ENTREGA Y RECOGIDA A DOMICILIO TOTALMENTE GRATIS EN BOSA Y KENNEDY!</div>
+</div>
+
+<!-- Botón 2: Flotante abajo a la derecha -->
+<a href="https://whatsapp.com" target="_blank" class="float-wa">💬 Reservar</a>
+
+<footer>
+  <p style="color:#22c55e; font-weight:bold;">TU DIVERSIÓN, NUESTRA PASIÓN</p>
+  <p>© 2026 León Gaming • Cobertura: Bosa y Kennedy • WhatsApp: 350 827 6184</p>
+</footer>
+
+</body>
+</html>
